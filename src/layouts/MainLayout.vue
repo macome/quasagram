@@ -1,21 +1,19 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header 
+      class="bg-white text-grey-10"
+      bordered
+    >
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
+       
 
-        <q-toolbar-title>
-          Quasar App
+        <q-toolbar-title
+          class="text-grand-hotel text-bold"
+        >
+          Quasgram
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        
       </q-toolbar>
     </q-header>
 
@@ -70,7 +68,9 @@ export default defineComponent({
 })
 </script>
 <style lang="sass">
-
+  .q-toolbar__title
+    text-align: center
+    font-size: 30px
   .q-footer
     .q-tab__icon
       fonte-size: 30px
