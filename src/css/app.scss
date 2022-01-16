@@ -4,3 +4,26 @@
     'Helvetica Neue', Helvetica, Arial, sans-serif
 }
     
+.small-screen-only{
+    @media (max-width: $breakpoint-xs-max){
+        display:block
+    }
+    @media (min-width: $breakpoint-sm-min){
+        display:none
+    }
+    
+}
+.large-screen-only{
+    @media (max-width: $breakpoint-xs-max){
+        display:none
+    }
+    @media (min-width: $breakpoint-sm-min){
+        display:block
+    }
+    
+}
+   
+
+    
+ 
+

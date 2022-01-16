@@ -10,7 +10,7 @@
         <q-toolbar-title
           class="text-grand-hotel text-bold"
         >
-          Quasgram
+          Quasagram
         </q-toolbar-title>
 
         
@@ -18,10 +18,10 @@
     </q-header>
 
     <q-footer 
-      class="bg-white"
+      class="bg-white small-screen-only"
       bordered
-    >   
-        <q-tabs
+      >   
+      <q-tabs
           class="text-grey-10"
           active-color="primary"
           indicator-color="transparent"
@@ -37,10 +37,10 @@
             icon="eva-camera-outline"
             
           /> 
-        </q-tabs>
+      </q-tabs>
 
        
-      </q-footer>
+    </q-footer>
 
     
 
